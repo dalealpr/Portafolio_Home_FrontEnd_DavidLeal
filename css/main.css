@@ -253,7 +253,7 @@ button {
           width: 18px; }
     .wrapper header .photo_profile {
       width: 230px;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
       animation: float 2.7s ease-out infinite; }
   @keyframes float {
     50% {
@@ -288,5 +288,62 @@ button {
           margin-left: 10px;
           width: 40px; }
       .wrapper header .button_cont .btn:hover {
-        padding: 6px 20px;
+        padding: 6px 13px;
+        border: solid 1px #0ed391; } }
+
+@media (max-width: 372px) {
+  .wrapper {
+    height: 860px; }
+    .wrapper nav {
+      height: 50px;
+      margin-bottom: 60px; }
+      .wrapper nav .lang_cont {
+        margin-right: 5px; }
+        .wrapper nav .lang_cont .btn_lang {
+          border: solid 1px #c1cceb;
+          padding: 4px 8px;
+          font-size: 11px; }
+        .wrapper nav .lang_cont .btn_lang:hover {
+          padding: 6px 12px;
+          border: solid 1px #0ed391; }
+        .wrapper nav .lang_cont img {
+          width: 18px; }
+    .wrapper header .photo_profile {
+      width: 210px;
+      margin-bottom: 70px;
+      animation: float 2.7s ease-out infinite; }
+  @keyframes float {
+    50% {
+      transform: translateY(20px); } }
+    .wrapper header .description_cont {
+      width: 80%; }
+      .wrapper header .description_cont h1 {
+        font-size: 23px;
+        margin-bottom: 30px; }
+      .wrapper header .description_cont h2 {
+        font-size: 16px; }
+      .wrapper header .description_cont p {
+        font-size: 12px;
+        margin-bottom: 50px; }
+    .wrapper header .button_cont {
+      width: 100%;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px; }
+      .wrapper header .button_cont .btn {
+        width: 120px;
+        height: 45px;
+        padding: 2px 8px;
+        border: solid 1px #c1cceb;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .wrapper header .button_cont .btn img {
+          margin-left: 10px;
+          width: 35px; }
+      .wrapper header .button_cont .btn:hover {
+        padding: 6px 13px;
         border: solid 1px #0ed391; } }
