@@ -264,7 +264,8 @@ button {
         font-size: 30px;
         margin-bottom: 30px; }
       .wrapper header .description_cont h2 {
-        font-size: 16px; }
+        font-size: 16px;
+        color: #0ed391; }
       .wrapper header .description_cont p {
         font-size: 14px;
         margin-bottom: 30px; }
@@ -321,7 +322,8 @@ button {
         font-size: 23px;
         margin-bottom: 30px; }
       .wrapper header .description_cont h2 {
-        font-size: 16px; }
+        font-size: 16px;
+        color: #0ed391; }
       .wrapper header .description_cont p {
         font-size: 12px;
         margin-bottom: 30px; }
