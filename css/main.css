@@ -1,0 +1,292 @@
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  list-style: none;
+  color: #ffffff; }
+
+s
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+.floatLeft {
+  float: left;
+  padding: .5em .5em .5em 0; }
+
+.floatRight {
+  float: right;
+  padding: .5em 0 .5em .5em; }
+
+img {
+  width: 100px; }
+
+button {
+  all: unset;
+  cursor: pointer; }
+
+* {
+  font-family: 'Roboto', sans-serif; }
+
+.wrapper {
+  width: 100%;
+  height: 937px;
+  background: url(../assets/img/fondo_spacio5.jpg);
+  background-size: cover; }
+  .wrapper nav {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px; }
+    .wrapper nav .lang_cont {
+      display: flex;
+      margin-right: 20px; }
+      .wrapper nav .lang_cont .btn_lang {
+        border: solid 1px #c1cceb;
+        padding: 4px 14px;
+        margin-right: 9px;
+        font-size: 14px;
+        color: #c1cceb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px; }
+      .wrapper nav .lang_cont .btn_lang:hover {
+        padding: 8px 18px;
+        border: solid 1px #0ed391; }
+      .wrapper nav .lang_cont img {
+        width: 30px; }
+  .wrapper header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .wrapper header .photo_profile {
+      width: 300px;
+      margin-bottom: 40px;
+      animation: float 2.7s ease-out infinite; }
+
+@keyframes float {
+  50% {
+    transform: translateY(20px); } }
+    .wrapper header .description_cont {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .wrapper header .description_cont h1 {
+        color: #ffffff;
+        font-size: 50px;
+        margin-bottom: 40px; }
+      .wrapper header .description_cont h2 {
+        color: #c1cceb;
+        font-size: 28px;
+        margin-bottom: 15px;
+        font-weight: 100; }
+      .wrapper header .description_cont p {
+        color: #c1cceb;
+        font-size: 20px;
+        margin-bottom: 45px;
+        font-weight: 100;
+        text-align: center; }
+    .wrapper header .button_cont {
+      width: 700px;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px; }
+      .wrapper header .button_cont .btn {
+        width: 300px;
+        height: 70px;
+        padding: 4px 16px;
+        border: solid 1px #c1cceb;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .wrapper header .button_cont .btn img {
+          margin-left: 10px;
+          width: 60px; }
+      .wrapper header .button_cont .btn:hover {
+        padding: 8px 22px;
+        border: solid 1px #0ed391; }
+
+@media (max-width: 1024px) {
+  .wrapper {
+    height: 850px; }
+    .wrapper nav {
+      height: 60px;
+      margin-bottom: 50px; }
+      .wrapper nav .lang_cont {
+        margin-right: 15px; }
+        .wrapper nav .lang_cont .btn_lang {
+          border: solid 1px #c1cceb;
+          padding: 4px 12px; }
+        .wrapper nav .lang_cont .btn_lang:hover {
+          padding: 6px 16px;
+          border: solid 1px #0ed391; }
+        .wrapper nav .lang_cont img {
+          width: 27px; }
+    .wrapper header .photo_profile {
+      width: 250px;
+      margin-bottom: 40px;
+      animation: float 2.7s ease-out infinite; }
+  @keyframes float {
+    50% {
+      transform: translateY(20px); } }
+    .wrapper header .description_cont {
+      width: 60%; }
+      .wrapper header .description_cont h1 {
+        font-size: 40px;
+        margin-bottom: 30px; }
+      .wrapper header .description_cont h2 {
+        font-size: 22px; }
+      .wrapper header .description_cont p {
+        font-size: 16px; }
+    .wrapper header .button_cont {
+      width: 650px;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px; }
+      .wrapper header .button_cont .btn {
+        width: 300px;
+        height: 70px;
+        padding: 3px 11px;
+        border: solid 1px #c1cceb;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .wrapper header .button_cont .btn img {
+          margin-left: 10px;
+          width: 60px; }
+      .wrapper header .button_cont .btn:hover {
+        padding: 6px 20px;
+        border: solid 1px #0ed391; } }
+
+@media (max-width: 788px) {
+  .wrapper {
+    height: 860px; }
+    .wrapper nav {
+      height: 60px;
+      margin-bottom: 50px; }
+      .wrapper nav .lang_cont {
+        margin-right: 10px; }
+        .wrapper nav .lang_cont .btn_lang {
+          border: solid 1px #c1cceb;
+          padding: 4px 10px;
+          font-size: 12px; }
+        .wrapper nav .lang_cont .btn_lang:hover {
+          padding: 6px 16px;
+          border: solid 1px #0ed391; }
+        .wrapper nav .lang_cont img {
+          width: 22px; }
+    .wrapper header .photo_profile {
+      width: 250px;
+      margin-bottom: 40px;
+      animation: float 2.7s ease-out infinite; }
+  @keyframes float {
+    50% {
+      transform: translateY(20px); } }
+    .wrapper header .description_cont {
+      width: 80%; }
+      .wrapper header .description_cont h1 {
+        font-size: 40px;
+        margin-bottom: 30px; }
+      .wrapper header .description_cont h2 {
+        font-size: 22px; }
+      .wrapper header .description_cont p {
+        font-size: 16px; }
+    .wrapper header .button_cont {
+      width: 100%;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px; }
+      .wrapper header .button_cont .btn {
+        width: 230px;
+        height: 55px;
+        padding: 3px 2px;
+        border: solid 1px #c1cceb;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .wrapper header .button_cont .btn img {
+          margin-left: 10px;
+          width: 40px; }
+      .wrapper header .button_cont .btn:hover {
+        padding: 6px 20px;
+        border: solid 1px #0ed391; } }
+
+@media (max-width: 550px) {
+  .wrapper {
+    height: 860px; }
+    .wrapper nav {
+      height: 50px;
+      margin-bottom: 60px; }
+      .wrapper nav .lang_cont {
+        margin-right: 5px; }
+        .wrapper nav .lang_cont .btn_lang {
+          border: solid 1px #c1cceb;
+          padding: 4px 8px;
+          font-size: 11px; }
+        .wrapper nav .lang_cont .btn_lang:hover {
+          padding: 6px 12px;
+          border: solid 1px #0ed391; }
+        .wrapper nav .lang_cont img {
+          width: 18px; }
+    .wrapper header .photo_profile {
+      width: 230px;
+      margin-bottom: 40px;
+      animation: float 2.7s ease-out infinite; }
+  @keyframes float {
+    50% {
+      transform: translateY(20px); } }
+    .wrapper header .description_cont {
+      width: 80%; }
+      .wrapper header .description_cont h1 {
+        font-size: 30px;
+        margin-bottom: 30px; }
+      .wrapper header .description_cont h2 {
+        font-size: 16px; }
+      .wrapper header .description_cont p {
+        font-size: 14px;
+        margin-bottom: 50px; }
+    .wrapper header .button_cont {
+      width: 100%;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px; }
+      .wrapper header .button_cont .btn {
+        width: 140px;
+        height: 45px;
+        padding: 3px 8px;
+        border: solid 1px #c1cceb;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .wrapper header .button_cont .btn img {
+          margin-left: 10px;
+          width: 40px; }
+      .wrapper header .button_cont .btn:hover {
+        padding: 6px 20px;
+        border: solid 1px #0ed391; } }

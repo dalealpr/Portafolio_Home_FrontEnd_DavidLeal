@@ -1,0 +1,278 @@
+//******************************************************************************//
+//----- 1024px -----//
+@media (max-width: 1024px) {
+  // Main
+  .wrapper {
+    height: 850px;
+
+    nav {
+      height: 60px;
+      margin-bottom: 50px;
+
+      .lang_cont {
+        margin-right: 15px;
+
+        .btn_lang {
+          border: solid 1px #c1cceb;
+          padding: 4px 12px;
+        }
+
+        .btn_lang:hover {
+          padding: 6px 16px;
+          border: solid 1px #0ed391;
+        }
+        img {
+          width: 27px;
+        }
+      }
+    }
+
+    header {
+      .photo_profile {
+        width: 250px;
+        margin-bottom: 40px;
+        animation: float 2.7s ease-out infinite;
+      }
+
+      @keyframes float {
+        50% {
+          transform: translateY(20px);
+        }
+      }
+
+      .description_cont {
+        width: 60%;
+        h1 {
+          font-size: 40px;
+          margin-bottom: 30px;
+        }
+
+        h2 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .button_cont {
+        width: 650px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        .btn {
+          width: 300px;
+          height: 70px;
+          padding: 3px 11px;
+          border: solid 1px #c1cceb;
+          font-size: 16px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            margin-left: 10px;
+            width: 60px;
+          }
+        }
+
+        .btn:hover {
+          padding: 6px 20px;
+          border: solid 1px #0ed391;
+        }
+      }
+    }
+  }
+}
+
+//******************************************************************************//
+//----- 788px -----//
+@media (max-width: 788px) {
+
+     // Main
+  .wrapper {
+    height: 860px;
+
+    nav {
+      height: 60px;
+      margin-bottom: 50px;
+
+      .lang_cont {
+        margin-right: 10px;
+
+        .btn_lang {
+          border: solid 1px #c1cceb;
+          padding: 4px 10px;
+          font-size: 12px;
+        }
+
+        .btn_lang:hover {
+          padding: 6px 16px;
+          border: solid 1px #0ed391;
+        }
+        img {
+          width: 22px;
+        }
+      }
+    }
+
+    header {
+      .photo_profile {
+        width: 250px;
+        margin-bottom: 40px;
+        animation: float 2.7s ease-out infinite;
+      }
+
+      @keyframes float {
+        50% {
+          transform: translateY(20px);
+        }
+      }
+
+      .description_cont {
+        width: 80%;
+        h1 {
+          font-size: 40px;
+          margin-bottom: 30px;
+        }
+
+        h2 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .button_cont {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        .btn {
+          width: 230px;
+          height: 55px;
+          padding: 3px 2px;
+          border: solid 1px #c1cceb;
+          font-size: 14px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            margin-left: 10px;
+            width: 40px;
+          }
+        }
+
+        .btn:hover {
+          padding: 6px 20px;
+          border: solid 1px #0ed391;
+        }
+      }
+    }
+  }
+}
+
+
+//******************************************************************************//
+//----- 550px -----//
+@media (max-width: 550px) {
+         // Main
+  .wrapper {
+    height: 860px;
+
+    nav {
+      height: 50px;
+      margin-bottom: 60px;
+
+      .lang_cont {
+        margin-right: 5px;
+
+        .btn_lang {
+          border: solid 1px #c1cceb;
+          padding: 4px 8px;
+          font-size: 11px;
+        }
+
+        .btn_lang:hover {
+          padding: 6px 12px;
+          border: solid 1px #0ed391;
+        }
+        img {
+          width: 18px;
+        }
+      }
+    }
+
+    header {
+      .photo_profile {
+        width: 230px;
+        margin-bottom: 40px;
+        animation: float 2.7s ease-out infinite;
+      }
+
+      @keyframes float {
+        50% {
+          transform: translateY(20px);
+        }
+      }
+
+      .description_cont {
+        width: 80%;
+        h1 {
+          font-size: 30px;
+          margin-bottom: 30px;
+        }
+
+        h2 {
+          font-size: 16px;
+        }
+
+        p {
+          font-size: 14px;
+          margin-bottom: 50px;
+        }
+      }
+
+      .button_cont {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        .btn {
+          width: 140px;
+          height: 45px;
+          padding: 3px 8px;
+          border: solid 1px #c1cceb;
+          font-size: 12px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            margin-left: 10px;
+            width: 40px;
+          }
+        }
+
+        .btn:hover {
+          padding: 6px 20px;
+          border: solid 1px #0ed391;
+        }
+      }
+    }
+  }
+}
+

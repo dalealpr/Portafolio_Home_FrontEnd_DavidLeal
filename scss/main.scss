@@ -1,0 +1,131 @@
+// Reset estilos del navegador Web
+@import "reset/reset.scss";
+
+// Main
+.wrapper{
+    width: 100%;
+    height: 937px;
+    background: url(../assets/img/fondo_spacio5.jpg);
+    background-size: cover;
+
+    nav{
+        width: 100%;
+        height: 70px;
+        margin-bottom: 60px;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+
+        .lang_cont{
+            display: flex;
+            margin-right: 20px;
+
+            .btn_lang{
+                border: solid 1px #c1cceb;;
+                padding: 4px 14px;
+                margin-right: 9px;
+                font-size: 14px;
+                color: #c1cceb;;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+            }
+    
+            .btn_lang:hover{
+                padding: 8px 18px;
+                border: solid 1px #0ed391;
+            }
+
+            img{
+                width: 30px;
+            }
+        }
+
+
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .photo_profile{
+            width: 300px;
+            margin-bottom: 40px;
+            animation: float 2.7s ease-out infinite;
+        }
+
+        @keyframes float {
+            50%{
+                transform: translateY(20px);
+            }
+        }
+
+        .description_cont{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                color: #ffffff;
+                font-size: 50px;
+                margin-bottom: 40px;
+            }
+
+            h2{
+                color: #c1cceb;
+                font-size: 28px;
+                margin-bottom: 15px;
+                font-weight: 100;
+            }
+
+            p{
+                color: #c1cceb;
+                font-size: 20px;
+                margin-bottom: 45px;
+                font-weight: 100;
+                text-align: center;
+            }
+        }
+
+        .button_cont{
+            width: 700px;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            .btn{
+                width: 300px;
+                height: 70px;
+                padding: 4px 16px;
+                border: solid 1px #c1cceb;
+                font-size: 17px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    margin-left: 10px;
+                    width: 60px;
+                }
+            }
+
+            .btn:hover{
+                padding: 8px 22px;
+                border: solid 1px #0ed391;
+            }
+        }
+    }
+}
+
+// Reset estilos del navegador Web
+@import "mediaqueries/mediaqueries.scss";
