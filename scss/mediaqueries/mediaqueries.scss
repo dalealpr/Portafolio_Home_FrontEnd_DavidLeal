@@ -282,11 +282,11 @@
 @media (max-width: 372px) {
     // Main
 .wrapper {
-height: 860px;
+height: 500px;
 
 nav {
  height: 50px;
- margin-bottom: 60px;
+ margin-bottom: 40px;
 
  .lang_cont {
    margin-right: 5px;
@@ -310,7 +310,7 @@ nav {
 header {
  .photo_profile {
    width: 210px;
-   margin-bottom: 70px;
+   margin-bottom: 40px;
    animation: float 2.7s ease-out infinite;
  }
 
@@ -333,7 +333,7 @@ header {
 
    p {
      font-size: 12px;
-     margin-bottom: 50px;
+     margin-bottom: 30px;
    }
  }
 
