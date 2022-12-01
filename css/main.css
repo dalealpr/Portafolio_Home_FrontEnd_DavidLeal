@@ -51,7 +51,7 @@ button {
     .wrapper nav .lang_cont {
       display: flex;
       margin-right: 20px; }
-      .wrapper nav .lang_cont .btn_lang {
+      .wrapper nav .lang_cont .btn_lang_eng {
         border: solid 1px #c1cceb;
         padding: 4px 14px;
         margin-right: 9px;
@@ -61,9 +61,26 @@ button {
         justify-content: center;
         align-items: center;
         gap: 8px; }
-      .wrapper nav .lang_cont .btn_lang:hover {
-        padding: 8px 18px;
-        border: solid 1px #0ed391; }
+      .wrapper nav .lang_cont .btn_lang_esp {
+        border: solid 1px #c1cceb;
+        padding: 4px 14px;
+        margin-right: 9px;
+        font-size: 14px;
+        color: #c1cceb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px; }
+      .wrapper nav .lang_cont .select {
+        border: solid 1px #0ed391;
+        padding: 4px 14px;
+        margin-right: 9px;
+        font-size: 14px;
+        color: #0ed391;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px; }
       .wrapper nav .lang_cont img {
         width: 30px; }
   .wrapper header {

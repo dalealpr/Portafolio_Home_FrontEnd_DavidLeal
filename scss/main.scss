@@ -22,7 +22,7 @@
             display: flex;
             margin-right: 20px;
 
-            .btn_lang{
+            .btn_lang_eng{
                 border: solid 1px #c1cceb;;
                 padding: 4px 14px;
                 margin-right: 9px;
@@ -34,11 +34,33 @@
                 align-items: center;
                 gap: 8px;
             }
+
+            .btn_lang_esp{
+                border: solid 1px #c1cceb;;
+                padding: 4px 14px;
+                margin-right: 9px;
+                font-size: 14px;
+                color: #c1cceb;;
     
-            .btn_lang:hover{
-                padding: 8px 18px;
-                border: solid 1px #0ed391;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
             }
+
+            .select {
+                border: solid 1px #0ed391;;
+                padding: 4px 14px;
+                margin-right: 9px;
+                font-size: 14px;
+                color:  #0ed391;;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+            }
+
 
             img{
                 width: 30px;
@@ -123,6 +145,7 @@
                 padding: 8px 22px;
                 border: solid 1px #0ed391;
             }
+
         }
     }
 }
